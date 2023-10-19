@@ -34,7 +34,7 @@ https://cloud.tencent.com/document/api/1427/56180
 ### 增加域名解析记录
 
 ```bash
-CERTBOT_DOMAIN=foo.com CERTBOT_VALIDATION=123 python3 app.py --auth
+CERTBOT_DOMAIN=foo.com CERTBOT_VALIDATION=Ns7Mu2yW4PenFulvOTvHgdX-Id6V1jkinEodBNyosAQ python3 app.py --auth
 ```
 
 验证域名解析：
@@ -51,7 +51,7 @@ CERTBOT_DOMAIN=foo.com CERTBOT_VALIDATION=123 python3 app.py --auth
     ;_acme-challenge.foo.com.	IN	TXT
 
     ;; ANSWER SECTION:
-    _acme-challenge.foo.com.	489 IN	TXT	"123"
+    _acme-challenge.foo.com.	489 IN	TXT	"Ns7Mu2yW4PenFulvOTvHgdX-Id6V1jkinEodBNyosAQ"
 
     ;; Query time: 10 msec
     ;; SERVER: 223.5.5.5#53(223.5.5.5) (UDP)
@@ -62,7 +62,7 @@ CERTBOT_DOMAIN=foo.com CERTBOT_VALIDATION=123 python3 app.py --auth
 ### 删除域名解析记录
 
 ```bash
-CERTBOT_DOMAIN=foo.com CERTBOT_VALIDATION=123 python3 app.py --cleanup
+CERTBOT_DOMAIN=foo.com CERTBOT_VALIDATION=Ns7Mu2yW4PenFulvOTvHgdX-Id6V1jkinEodBNyosAQ python3 app.py --cleanup
 ```
 
 ## 手动续签
