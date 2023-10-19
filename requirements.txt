@@ -1,0 +1,4 @@
+jmespath
+alibaba-cloud-python-sdk-v2
+happy-python
+tencentcloud-sdk-python

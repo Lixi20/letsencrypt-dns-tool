@@ -1,0 +1,6 @@
+[main]
+access_key_id=123456
+access_key_secret=123456
+# 暂时仅支持阿里云和腾讯云：aliyun，tencent
+platform_type=aliyun
+region_id=cn-chengdu
